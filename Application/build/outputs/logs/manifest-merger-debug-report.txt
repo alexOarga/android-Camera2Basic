@@ -1,0 +1,99 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/alex/AndroidStudioProjects/android-Camera2Basic/Application/src/main/AndroidManifest.xml:18:1-41:12
+MERGED from [com.android.support:support-v13:27.0.2] /home/alex/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/9212b8ed8724cc2703c73ee56f45ef72/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] /home/alex/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/7aaca05a830673494a2b1de854b45849/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/alex/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/7a40a4351248080e3462e8d1e363850f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/alex/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9ff17991199fb3d4eab053cfc5fafef8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/alex/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/3c6d224b7b03d345b89773e7259680b6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] /home/alex/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/ae15a2cd600c9a3c6b6444927ed150e5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/alex/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/36542fd6b8c534e31e77be62a2d76473/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/alex/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/e3acf2893a28d6fd8c0d8715b27c96c5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/alex/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/b93d2fe4b58da40633df72e304a6c9c1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/alex/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/cd2d7e47e197999ee56df4e98130a21a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] /home/alex/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/5e463eb22087bff512340c0ff7fc4ec0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/alex/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/fafacd89db4f569b85ac7ae34fe93917/AndroidManifest.xml:17:1-24:12
+	package
+		ADDED from /home/alex/AndroidStudioProjects/android-Camera2Basic/Application/src/main/AndroidManifest.xml:19:5-47
+	xmlns:android
+		ADDED from /home/alex/AndroidStudioProjects/android-Camera2Basic/Application/src/main/AndroidManifest.xml:18:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /home/alex/AndroidStudioProjects/android-Camera2Basic/Application/src/main/AndroidManifest.xml:21:5-65
+	android:name
+		ADDED from /home/alex/AndroidStudioProjects/android-Camera2Basic/Application/src/main/AndroidManifest.xml:21:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/alex/AndroidStudioProjects/android-Camera2Basic/Application/src/main/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from /home/alex/AndroidStudioProjects/android-Camera2Basic/Application/src/main/AndroidManifest.xml:23:22-78
+uses-feature#android.hardware.camera
+ADDED from /home/alex/AndroidStudioProjects/android-Camera2Basic/Application/src/main/AndroidManifest.xml:24:5-60
+	android:name
+		ADDED from /home/alex/AndroidStudioProjects/android-Camera2Basic/Application/src/main/AndroidManifest.xml:24:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /home/alex/AndroidStudioProjects/android-Camera2Basic/Application/src/main/AndroidManifest.xml:25:5-70
+	android:name
+		ADDED from /home/alex/AndroidStudioProjects/android-Camera2Basic/Application/src/main/AndroidManifest.xml:25:19-67
+application
+ADDED from /home/alex/AndroidStudioProjects/android-Camera2Basic/Application/src/main/AndroidManifest.xml:27:5-39:19
+	android:label
+		ADDED from /home/alex/AndroidStudioProjects/android-Camera2Basic/Application/src/main/AndroidManifest.xml:28:9-41
+	android:icon
+		ADDED from /home/alex/AndroidStudioProjects/android-Camera2Basic/Application/src/main/AndroidManifest.xml:29:9-45
+	android:allowBackup
+		ADDED from /home/alex/AndroidStudioProjects/android-Camera2Basic/Application/src/main/AndroidManifest.xml:27:18-44
+	android:theme
+		ADDED from /home/alex/AndroidStudioProjects/android-Camera2Basic/Application/src/main/AndroidManifest.xml:30:9-45
+activity#com.example.android.camera2basic.CameraActivity
+ADDED from /home/alex/AndroidStudioProjects/android-Camera2Basic/Application/src/main/AndroidManifest.xml:32:9-38:20
+	android:label
+		ADDED from /home/alex/AndroidStudioProjects/android-Camera2Basic/Application/src/main/AndroidManifest.xml:33:19-51
+	android:name
+		ADDED from /home/alex/AndroidStudioProjects/android-Camera2Basic/Application/src/main/AndroidManifest.xml:32:19-49
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/alex/AndroidStudioProjects/android-Camera2Basic/Application/src/main/AndroidManifest.xml:34:13-37:29
+action#android.intent.action.MAIN
+ADDED from /home/alex/AndroidStudioProjects/android-Camera2Basic/Application/src/main/AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from /home/alex/AndroidStudioProjects/android-Camera2Basic/Application/src/main/AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/alex/AndroidStudioProjects/android-Camera2Basic/Application/src/main/AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from /home/alex/AndroidStudioProjects/android-Camera2Basic/Application/src/main/AndroidManifest.xml:36:27-74
+uses-sdk
+INJECTED from /home/alex/AndroidStudioProjects/android-Camera2Basic/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/alex/AndroidStudioProjects/android-Camera2Basic/Application/src/main/AndroidManifest.xml
+INJECTED from /home/alex/AndroidStudioProjects/android-Camera2Basic/Application/src/main/AndroidManifest.xml
+MERGED from [com.android.support:support-v13:27.0.2] /home/alex/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/9212b8ed8724cc2703c73ee56f45ef72/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.0.2] /home/alex/.gradle/caches/transforms-1/files-1.1/support-v13-27.0.2.aar/9212b8ed8724cc2703c73ee56f45ef72/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /home/alex/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/7aaca05a830673494a2b1de854b45849/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /home/alex/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/7aaca05a830673494a2b1de854b45849/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/alex/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/7a40a4351248080e3462e8d1e363850f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /home/alex/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/7a40a4351248080e3462e8d1e363850f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/alex/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9ff17991199fb3d4eab053cfc5fafef8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/alex/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9ff17991199fb3d4eab053cfc5fafef8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/alex/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/3c6d224b7b03d345b89773e7259680b6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/alex/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/3c6d224b7b03d345b89773e7259680b6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/alex/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/ae15a2cd600c9a3c6b6444927ed150e5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/alex/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/ae15a2cd600c9a3c6b6444927ed150e5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/alex/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/36542fd6b8c534e31e77be62a2d76473/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/alex/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/36542fd6b8c534e31e77be62a2d76473/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/alex/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/e3acf2893a28d6fd8c0d8715b27c96c5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/alex/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/e3acf2893a28d6fd8c0d8715b27c96c5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/alex/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/b93d2fe4b58da40633df72e304a6c9c1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/alex/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/b93d2fe4b58da40633df72e304a6c9c1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/alex/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/cd2d7e47e197999ee56df4e98130a21a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/alex/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/cd2d7e47e197999ee56df4e98130a21a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/alex/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/5e463eb22087bff512340c0ff7fc4ec0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/alex/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/5e463eb22087bff512340c0ff7fc4ec0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/alex/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/fafacd89db4f569b85ac7ae34fe93917/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/alex/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/fafacd89db4f569b85ac7ae34fe93917/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/alex/AndroidStudioProjects/android-Camera2Basic/Application/src/main/AndroidManifest.xml
+INJECTED from /home/alex/AndroidStudioProjects/android-Camera2Basic/Application/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/alex/AndroidStudioProjects/android-Camera2Basic/Application/src/main/AndroidManifest.xml
+		ADDED from /home/alex/AndroidStudioProjects/android-Camera2Basic/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/alex/AndroidStudioProjects/android-Camera2Basic/Application/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/alex/AndroidStudioProjects/android-Camera2Basic/Application/src/main/AndroidManifest.xml
+		ADDED from /home/alex/AndroidStudioProjects/android-Camera2Basic/Application/src/main/AndroidManifest.xml
+		INJECTED from /home/alex/AndroidStudioProjects/android-Camera2Basic/Application/src/main/AndroidManifest.xml
