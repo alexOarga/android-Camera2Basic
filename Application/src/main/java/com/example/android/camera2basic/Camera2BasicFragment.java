@@ -66,6 +66,7 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Calendar;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
@@ -234,6 +235,11 @@ public class Camera2BasicFragment extends Fragment
      * This is the output file for our picture.
      */
     private File mFile;
+
+    /**
+     * FOlder of the saved pics
+     */
+     private static File mFolder;
 
     /**
      * This a callback object for the {@link ImageReader}. "onImageAvailable" will be called when a
@@ -445,7 +451,10 @@ public class Camera2BasicFragment extends Fragment
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        mFile = getPublicAlbumStorageDir("Camera2Android");
+        //mFile = getPublicAlbumStorageDir("Camera2Android");
+        mFile = new File("");
+        mFolder = getActivity().getExternalFilesDir(null);
+
     }
 
     @Override
@@ -934,7 +943,7 @@ public class Camera2BasicFragment extends Fragment
         /**
          * The file we save the image into.
          */
-        private final File mFile;
+        private File mFile;
 
         ImageSaver(Image image, File file) {
             mImage = image;
@@ -948,6 +957,8 @@ public class Camera2BasicFragment extends Fragment
             buffer.get(bytes);
             FileOutputStream output = null;
             try {
+                String date = Calendar.getInstance().getTime().toString();
+                mFile = new File(mFolder, "pic_" + date + ".jpg");
                 output = new FileOutputStream(mFile);
                 output.write(bytes);
             } catch (IOException e) {

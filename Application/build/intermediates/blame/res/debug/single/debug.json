@@ -1376,6 +1376,10 @@
         "source": "/home/alex/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9ff17991199fb3d4eab053cfc5fafef8/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
     },
     {
+        "merged": "/home/alex/AndroidStudioProjects/android-Camera2Basic/Application/build/intermediates/res/merged/debug/layout_fragment_multi_touch.xml.flat",
+        "source": "/home/alex/AndroidStudioProjects/android-Camera2Basic/Application/src/main/res/layout/fragment_multi_touch.xml"
+    },
+    {
         "merged": "/home/alex/AndroidStudioProjects/android-Camera2Basic/Application/build/intermediates/res/merged/debug/drawable_abc_cab_background_top_material.xml.flat",
         "source": "/home/alex/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/9ff17991199fb3d4eab053cfc5fafef8/res/drawable/abc_cab_background_top_material.xml"
     },
