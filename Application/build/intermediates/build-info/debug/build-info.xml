@@ -6,7 +6,7 @@
     density="xxhdpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1535447527186"
+    timestamp="1535471644416"
     token="-681696640796113073"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -62,7 +62,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1535447527186"
+        timestamp="1535471644416"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/alex/AndroidStudioProjects/android-Camera2Basic/Application/build/intermediates/split-apk/debug/slices/slice_7.apk"

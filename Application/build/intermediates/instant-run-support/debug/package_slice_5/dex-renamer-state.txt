@@ -1,4 +1,4 @@
-#Tue Aug 28 10:28:15 CEST 2018
+#Tue Aug 28 17:24:26 CEST 2018
 base.0=/home/alex/AndroidStudioProjects/android-Camera2Basic/Application/build/intermediates/transforms/dexMerger/debug/5
 path.0=classes.dex
 renamed.0=classes.dex

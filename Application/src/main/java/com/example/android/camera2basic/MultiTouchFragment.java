@@ -97,25 +97,16 @@ public class MultiTouchFragment extends Fragment implements View.OnTouchListener
     @Override
     public void onViewCreated(final View view, Bundle savedInstanceState) {
         imageView = (ImageView)view.findViewById(R.id.imageView1);
-        imageButton = (ImageButton)view.findViewById(R.id.load_over);
-        //RelativeLayout layout_over = (RelativeLayout)view.findViewById(R.id.layout_over);
-        //.setAlpha((float) 0.3);
         imageView.setBackgroundResource(R.color.transparent);
-
         imageView.setOnTouchListener(this);
+    }
 
-        imageButton.setOnClickListener(
-                new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        Intent i = new Intent(
-                                Intent.ACTION_PICK,
-                                android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+    public void loadPicture(){
+        Intent i = new Intent(
+                Intent.ACTION_PICK,
+                android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
 
-                        startActivityForResult(i, RESULT_LOAD_IMAGE);
-                    }
-                }
-        );
+        startActivityForResult(i, RESULT_LOAD_IMAGE);
     }
 
     @Override
